@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Naruto Game</title>
+    <link rel="icon" href="imgs/icone.png">
+    <link rel="stylesheet" href="principal.css">
+  </head>
+  <body>
+    <a href="#abrirModal" title="Cadastrar">  
+      <img id="user" src="imgs/user.png">
+    </a>
+
+    <a href="jogo.html" class="botoes">         <strong>JOGAR</strong></a>
+    <a href="sobreNos.html" class="botoes">     <strong>CRIADORAS</strong></a>
+    <a href="shun-comandos.html" class="botoes"><strong>CONTROLES</strong></a>
+    
+    <div id="abrirModal" class="modal">
+      <div id="cadastro">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        
+        <form>
+          <h2>Cadastrar</h2>
+
+          <label for="username">Nome</label>
+          <div class="input">
+            <input id="username" placeholder="Username" type="text">
+          </div>
+
+          <label for="email">Email</label>
+          <div class="input">
+            <input id="email" placeholder="Email" type="text">
+          </div>
+        
+          <label for="senha">Senha</label>
+          <div class="input">
+            <input id="senha" placeholder="Password" type="password">
+          </div>
+        
+          <div id="btn">
+            <button type="submit"><a href="principal.html">Cadastrar</a></button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="cadastro.js"></script>
+  </body>
+</html>
